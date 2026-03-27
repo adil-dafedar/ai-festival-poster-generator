@@ -2,8 +2,6 @@
 
 An AI-powered tool that helps small business owners create **unique, festival-themed marketing images in seconds** — without any design skills.
 
----
-
 ## 🚨 Problem
 
 Small business owners (grocery stores, salons, bakeries, local shops) rely heavily on **festival-based marketing** to drive sales.
@@ -16,15 +14,12 @@ But they face 3 key problems:
 
 As a result, their marketing looks **uninspired or inconsistent**, especially during high-opportunity periods like Diwali, Eid, or New Year.
 
----
 
 ## 🎯 Users
 
 * Local shopkeepers
 * Small business owners
 * Non-technical users using WhatsApp / Instagram for marketing
-
----
 
 ## 💡 Solution
 
@@ -36,7 +31,6 @@ This project enables users to:
 
 No templates. No design tools. No learning curve.
 
----
 
 ## ✨ Key Features
 
@@ -47,10 +41,6 @@ No templates. No design tools. No learning curve.
 * 📤 Share directly (Web Share API)
 * 🔁 Fallback system (placeholder if API fails)
 
----
-
-## 🧠 Builder Thinking
-
 ### Why this approach?
 
 Instead of building a complex backend first, I focused on:
@@ -59,7 +49,6 @@ Instead of building a complex backend first, I focused on:
 * Validating the **core user value: “Can users generate useful posters instantly?”**
 * Using tools like Puter.js to reduce infra overhead
 
----
 
 ### Trade-offs
 
@@ -69,15 +58,11 @@ Instead of building a complex backend first, I focused on:
 
 But this allowed rapid MVP delivery.
 
----
-
 ## 🏗️ Tech Stack
 
 * Frontend: React (Vite)
 * AI: Puter.js (image generation models like `gemini-2.5-flash-image-preview`)
 * Styling: Basic CSS
-
----
 
 ## ⚙️ How It Works
 
@@ -100,8 +85,6 @@ But this allowed rapid MVP delivery.
 
 5. User can download or share
 
----
-
 ## 🚀 Running Locally
 
 ```bash
@@ -117,31 +100,34 @@ Open:
 http://localhost:5173
 ```
 
----
 
 ## 📸 Demo Flow
 
 1. Enter:
- <img width="721" height="365" alt="image" src="https://github.com/user-attachments/assets/42aac304-45db-4ad7-8ec0-7452be2e8527" />
+
+<img width="721" height="365" alt="image" src="https://github.com/user-attachments/assets/42aac304-45db-4ad7-8ec0-7452be2e8527" />
 
    * “Paras Electronics(My Dad's Shop)”
    * “Electronics Devices , sell and repair”
    * “Independence Day”
 
-2. Click **Generate**
+3. Click **Generate**
 
-3. Get a unique festive poster
-   <img width="696" height="692" alt="image" src="https://github.com/user-attachments/assets/edd5c358-0960-4bee-9946-9e7392874577" />
+4. Get a unique festive poster
+
+
+
+<img width="696" height="692" alt="image" src="https://github.com/user-attachments/assets/edd5c358-0960-4bee-9946-9e7392874577" />
 
 Another Examples :
+
+
 <img width="711" height="706" alt="image" src="https://github.com/user-attachments/assets/0f876020-2cda-4811-84f0-cbd444d0bd76" />
 
 <img width="378" height="622" alt="image" src="https://github.com/user-attachments/assets/0ab4b1ed-a701-4447-9f57-8e3de27be56d" />
 
 <img width="673" height="618" alt="image" src="https://github.com/user-attachments/assets/7d74412b-00b5-4933-a29d-b20fbe4a6482" />
 
-
----
 
 ## 📈 Future Improvements
 
