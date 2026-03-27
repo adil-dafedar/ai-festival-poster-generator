@@ -41,14 +41,17 @@ No templates. No design tools. No learning curve.
 * 📤 Share directly (Web Share API)
 * 🔁 Fallback system (placeholder if API fails)
 
-### Why this approach?
+### 🧪 MVP / Prototype Development
 
-Instead of building a complex backend first, I focused on:
+This project was built as a rapid MVP to validate a simple but powerful idea:
 
-* Fast iteration using frontend-first architecture
-* Validating the **core user value: “Can users generate useful posters instantly?”**
-* Using tools like Puter.js to reduce infra overhead
+Can small business owners generate useful festival marketing content instantly using AI?
 
+### ⚡ Approach
+Built a frontend-first prototype using React
+Avoided backend complexity to reduce setup time
+Used Puter.js for instant AI image generation (no infra required)
+Focused on speed of iteration over completeness
 
 ### Trade-offs
 
